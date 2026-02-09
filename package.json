@@ -1,0 +1,43 @@
+{
+  "name": "@lxgicstudios/cronexplain",
+  "version": "1.0.0",
+  "description": "Parse, validate, and explain cron expressions in plain English. Generate cron from natural language. Show next run times. Free CLI tool.",
+  "main": "dist/index.js",
+  "bin": {
+    "cronexplain": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cron",
+    "cron-expression",
+    "cron-parser",
+    "cron-explain",
+    "cron-validator",
+    "crontab",
+    "schedule",
+    "cli",
+    "plain-english",
+    "natural-language",
+    "next-run",
+    "devtools"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/cronexplain"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
